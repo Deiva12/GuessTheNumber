@@ -68,3 +68,11 @@ document.querySelector('.again').addEventListener('click', function () {
   actualvalue = Math.floor(Math.random() * 20) + 1;
   score = 20;
 });
+document.querySelector('.inputnumber').addEventListener("keypress",
+    function(event){
+        if(event.key.toLowerCase() === 'enter')
+        {
+            document.querySelector(".check-btn").click();
+        }
+    }
+);
