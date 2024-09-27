@@ -1,0 +1,102 @@
+@font-face {
+  font-family: Example;
+  src: url('/GuessTheNumber/Font/RetroGaming.otf');
+}
+* {
+  margin: 0%;
+  color: azure;
+  font-family: Example;
+}
+body {
+  padding: 40px;
+  background-color: rgb(2, 7, 40);
+  border: 2px solid grey;
+}
+.firstPlace {
+  display: flex;
+  justify-content: center;
+}
+.again {
+  margin-top: 2%;
+  padding: 2%;
+  background-color: grey;
+  border: 3px solid grey;
+  cursor: pointer;
+}
+.Between {
+  margin-top: 2%;
+  padding: 2%;
+  padding-left: 50%;
+}
+.ovhead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.valueshow {
+  margin-bottom: 5%;
+  padding: 2%;
+  width: 100px;
+  height: 75px;
+  font-size: 60px;
+  justify-content: center;
+  text-align: center;
+  background-color: grey;
+  border: 3px solid grey;
+  /* transform: translate(-50%, 50%); */
+}
+.heading {
+  text-align: center;
+  font-size: large;
+  margin-bottom: 5%;
+  /* padding-top: 10%; */
+  /* padding-bottom:20%; */
+}
+.inputclass {
+  display: flex;
+  flex-direction: column;
+}
+.scoringclass {
+  margin: 0%;
+  padding: 0%;
+}
+.inputnumber {
+  text-align: center;
+  width: 200px;
+  height: 100px;
+  font-size: 250%;
+  background-color: rgb(2, 7, 40);
+  margin-bottom: 20px;
+  border: 5px solid grey;
+}
+.check-btn {
+  width: 150px;
+  height: 75px;
+  margin-left: 30px;
+  background-color: grey;
+  cursor: pointer;
+  border: 3px solid grey;
+  cursor: pointer;
+}
+.colourcheck {
+  background-color: white;
+}
+.allimpdiv {
+  display: flex;
+  justify-content: space-evenly;
+}
+.changingval {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  font-size: x-large;
+}
+.score {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: large;
+}
+.highscore {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  font-size: large;
+}
